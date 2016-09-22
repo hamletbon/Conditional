@@ -20,6 +20,7 @@ class Conditional{
                 {
                     //is a prime number!
                     System.out.print(i+" ");
+                    primeCount = primeCount + 1;
                 }
                 if (primeCount%10 == 0)
                 {
